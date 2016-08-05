@@ -55,13 +55,19 @@
 JSSURL="https://jss.mycompany.com:8443" #Please be sure to include the port if required
 JSSUSER="apiusername"
 JSSPASS="apipassword"
-JSSSEARCH="ReportName" # Case Sensitive please include %20 if the Report name has spaces ie "Not Encrypted" should be "Not%20Encrypted"
+JSSSEARCH="ReportName" # Case Sensitive please include %20 if the Report name has spaces ie "No Antivirus" should be "No%20Antivirus"
 
 
-#Things to be aware of....
-#For your display fields always include the "Computer Name"
-#May cause errors if your machine names have a " in the name ie My 13" macbook air
-#
+# Things to be aware of....
+# For your display fields always include the "Computer Name"
+# May cause errors if your machine names have a " in the name ie My 13" macbook air
+
+#Has only been tested on versions of the JSS 9.9+
+
+
+
+
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # START APPLICATION
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
